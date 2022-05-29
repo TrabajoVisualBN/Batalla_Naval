@@ -21,9 +21,3 @@
 Juego de batalla naval ,el cual va desarrollarse en js y html
 el cual es un trabajo en conjunto ,por los alumnos de la universidad politecnica de tecamac
 
-
-
-
-### Cabe aclarar que empezamos desde 0 y con una idea muy baja ,esperemos que pueda comprender nuestro programa y sea lo establecido ya que pusismos todo nuestro esfuerzo ,el programa tiene algunas fallas pero aqui esta lo mejor !
-###
-

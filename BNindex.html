@@ -41,12 +41,17 @@
 
                         break;
                     case "2":
-
-                        posicion = prompt("ingrese la posicio del barco")
-                        ponerBarcos(posicion);
+                        do {
+                            posicion = prompt("ingrese la posicio del barco")
+                            ponerBarcos(posicion);
+                            contador++
+                        } while (contador != 5);
                         break;
                     case "3":
+                        disparos(vector1);
                         break;
+                    case "4":
+                        barcosHundidos()
 
                     default:
                         break;
@@ -65,6 +70,12 @@
         }
 
 
+        /**
+          
+         @param {entero} casillas
+         
+         imrpimer el tablero con el nuemro de la casillas especificadas
+        */
         function mostrarTableero(casillas) {
 
 
@@ -90,6 +101,12 @@
 
 
 
+        /**
+          
+         @param {entero} posicion
+         
+         reimprime el mapa con los barcos en las posiciones especificadas por el usuario
+        */
 
         function ponerBarcos(posicion) {
 
@@ -169,7 +186,25 @@
                 creditos - 1;
                 alert(creditos);
             }
-        } 
+        }
+
+        // funcion para saber el ganador//
+        function ganar(creditos) {
+            if (creditos < 1) {
+                console.log("Usted ah sido derrotado")
+            }
+            if (creditos > 3) {
+                console.log("Usted A vencido: Felicidades!!! ")
+            }
+            if (creditos = 1) {
+                console.log("Solo te queda un barco")
+            }
+            else ((Creditos = 2) && (creditos = 3))
+            {
+                console.log("Eso es sigue asi")
+            }
+
+        }
 
 
     </script>
