@@ -24,6 +24,6 @@ el cual es un trabajo en conjunto ,por los alumnos de la universidad politecnica
 
 
 
-###Cabe aclarar que empezamos desde 0 y con una idea muy baja ,esperemos que pueda comprender nuestro programa y sea lo establecido ya que pusismos todo nuestro esfuerzo
+### Cabe aclarar que empezamos desde 0 y con una idea muy baja ,esperemos que pueda comprender nuestro programa y sea lo establecido ya que pusismos todo nuestro esfuerzo
 ###
 
