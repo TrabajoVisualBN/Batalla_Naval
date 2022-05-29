@@ -19,5 +19,5 @@
 ### indroduccion
 
 Juego de batalla naval ,el cual va desarrollarse en js y html
-el cual es un trabajo en conjunto ,por los alumnos de la universidad politecnica de tecamc
+el cual es un trabajo en conjunto ,por los alumnos de la universidad politecnica de tecamac
 
