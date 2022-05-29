@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //variables
+        var barcos;
+        var creditos;
+        let opc = 0;
+        let opcionParaMostrarTablero;
+
+        var casillas = 100
+        let posicion = 0
+        let tablero = new Array(casillas)
+        let puntos = "0"
+
+        //tamaño del vector
+
+
+        casillas = prompt("Escribe el tamaño de tu Tablero :");
+
+        opc = prompt("Escribe (1.- Iniciar) (2.-Finalizar)");
+        switch (opc) {
+            case "1":
+
+                alert("Hola soy anan y yo te voy a guiar por el juego");
+                opc = prompt("(1.-Mostrar tablero),(2.-Colocar barcos ),(3.-Conteo de puntos) ");
+                switch (opc) {
+                    case "1":
+
+                        mostrarTableero(casillas);
+
+
+
+                        break;
+                    case "2":
+
+                        posicion = prompt("ingrese la posicio del barco")
+                        ponerBarcos(posicion);
+                        break;
+                    case "3":
+                        break;
+
+                    default:
+                        break;
+                }
+
+
+
+
+                break;
+            case "2":
+                console.log(Finalizar);
+                break;
+            default:
+
+                break;
+        }
+
+
+        function mostrarTableero(casillas) {
+
+
+
+            for (let i = 0; i < casillas; i++) {
+
+                for (let j = 0; j < casillas; j++) {
+                    puntos = puntos + "0"
+                    if (j == casillas - 1) {
+                        tablero[i] = puntos
+                    }
+                }
+                puntos = "0"
+            }
+            for (let i = 0; i < casillas; i++) {
+                for (let j = 0; j < casillas; j++) {
+                    document.writeln(tablero[i])
+
+                }
+            }
+        }
+
+
+
+
+
+        function ponerBarcos(posicion) {
+
+            for (let i = 0; i < casillas; i++) {
+
+                for (let j = 0; j < casillas; j++) {
+                    puntos = puntos + "0"
+                    if (j == posicion) {
+                        puntos = puntos + "#"
+                        posicion = casillas + casillas
+                    }
+                    if (j == casillas - 1) {
+                        tablero[i] = puntos
+                    }
+                }
+                puntos = "0"
+            }
+            for (let j = 0; j < casillas; j++) {
+                console.log(tablero[j] + "\n")
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        function iniciar(vector1) {
+
+
+
+
+
+
+        }
+
+        function Finalizar() {
+            delete vector1();
+            return console.error("Se finalizo el programa");
+        }
+
+
+
+
+        function Fila_Alea(vector1) {
+            return;
+        }
+
+        //---------
+        //disparos 
+        //-----------
+        function disparos(vector1) {
+            for (var i = 0; i < vector1.length; i++) {
+                //Bucle que recorre el array que está en la posición i
+                for (var j = 0; j < vector1[i].length; j++) {
+                    console.write(vector1[i][j]);
+                }
+            }
+        }
+
+        //------------
+        /*si le das a un barco van a ir aumentando los creditos */
+        //-----------
+        function barcosHundidos() {
+            if (vector1.length == barcos) {
+                creditos + 1;
+                alert(creditos);
+            } else (vector1.length >= barcos)
+            {
+                creditos - 1;
+                alert(creditos);
+            }
+        } 
+
+
+    </script>
+
+</body>
+
+</html>
