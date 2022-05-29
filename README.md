@@ -13,10 +13,11 @@
 
 # Indice
 
-1.-Readme \n
-2.-index.html
+#### 1.-Readme 
+#### 2.-index.html
 
 ### indroduccion
+
 Juego de batalla naval ,el cual va desarrollarse en js y html
 el cual es un trabajo en conjunto ,por los alumnos de la universidad politecnica de tecamc
 
